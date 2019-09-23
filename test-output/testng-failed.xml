@@ -5,10 +5,13 @@
     <classes>
       <class name="scripts.iniciarSesion">
         <methods>
+          <include name="presionarBotonIngresar"/>
           <include name="cerrarSesion"/>
           <include name="abrirMenuPerfil"/>
           <include name="ejecutarBrowser"/>
+          <include name="ingresarPassword"/>
           <include name="cerrarBrowser"/>
+          <include name="ingresarCorreo"/>
         </methods>
       </class> <!-- scripts.iniciarSesion -->
     </classes>

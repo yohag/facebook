@@ -37,9 +37,6 @@ public class pageIndex {
     @FindBy(xpath = "//*[@id=\"userNavigationLabel\"]")
     public WebElement btnMenuPerfil;
 
-    //@FindBy(xpath = "//*[@id=\"u_7_3\"]")
-    //public WebElement btnCerrarSesion;
-
     @FindBy(xpath = "//*[@id=\"facebook\"]/body")
     public WebElement bodyFacebook;
 

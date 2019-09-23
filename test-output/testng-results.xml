@@ -1,37 +1,367 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-06T12:46:42 CLT" name="Default suite" finished-at="2019-09-06T12:47:18 CLT" duration-ms="36404">
+  <suite started-at="2019-09-23T14:52:33 CLST" name="Default suite" finished-at="2019-09-23T14:52:39 CLST" duration-ms="5251">
     <groups>
     </groups>
-    <test started-at="2019-09-06T12:46:42 CLT" name="Default test" finished-at="2019-09-06T12:47:18 CLT" duration-ms="36404">
+    <test started-at="2019-09-23T14:52:33 CLST" name="Default test" finished-at="2019-09-23T14:52:39 CLST" duration-ms="5251">
       <class name="scripts.iniciarSesion">
-        <test-method is-config="true" signature="ejecutarBrowser()[pri:0, instance:scripts.iniciarSesion@68567e20]" started-at="2019-09-06T12:46:42 CLT" name="ejecutarBrowser" finished-at="2019-09-06T12:46:48 CLT" duration-ms="5859" status="PASS">
+        <test-method is-config="true" signature="ejecutarBrowser()[pri:0, instance:scripts.iniciarSesion@11fc564b]" started-at="2019-09-23T14:52:33 CLST" name="ejecutarBrowser" finished-at="2019-09-23T14:52:39 CLST" duration-ms="5197" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================
+at Tools.tools.skipScript(tools.java:191)
+at scripts.iniciarSesion.ejecutarBrowser(iniciarSesion.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ejecutarBrowser -->
-        <test-method signature="ingresarCorreo()[pri:1, instance:scripts.iniciarSesion@68567e20]" started-at="2019-09-06T12:46:48 CLT" name="ingresarCorreo" finished-at="2019-09-06T12:46:50 CLT" duration-ms="1704" status="PASS">
+        <test-method signature="ingresarCorreo()[pri:1, instance:scripts.iniciarSesion@11fc564b]" started-at="2019-09-23T14:52:39 CLST" name="ingresarCorreo" finished-at="2019-09-23T14:52:39 CLST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================
+at Tools.tools.skipScript(tools.java:191)
+at scripts.iniciarSesion.ejecutarBrowser(iniciarSesion.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ingresarCorreo -->
-        <test-method signature="ingresarPassword()[pri:2, instance:scripts.iniciarSesion@68567e20]" started-at="2019-09-06T12:46:50 CLT" name="ingresarPassword" finished-at="2019-09-06T12:46:51 CLT" duration-ms="1637" status="PASS">
+        <test-method signature="ingresarPassword()[pri:2, instance:scripts.iniciarSesion@11fc564b]" started-at="2019-09-23T14:52:39 CLST" name="ingresarPassword" finished-at="2019-09-23T14:52:39 CLST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================
+at Tools.tools.skipScript(tools.java:191)
+at scripts.iniciarSesion.ejecutarBrowser(iniciarSesion.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ingresarPassword -->
-        <test-method signature="presionarBotonIngresar()[pri:3, instance:scripts.iniciarSesion@68567e20]" started-at="2019-09-06T12:46:51 CLT" name="presionarBotonIngresar" finished-at="2019-09-06T12:47:01 CLT" duration-ms="10127" status="PASS">
+        <test-method signature="presionarBotonIngresar()[pri:3, instance:scripts.iniciarSesion@11fc564b]" started-at="2019-09-23T14:52:39 CLST" name="presionarBotonIngresar" finished-at="2019-09-23T14:52:39 CLST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================
+at Tools.tools.skipScript(tools.java:191)
+at scripts.iniciarSesion.ejecutarBrowser(iniciarSesion.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- presionarBotonIngresar -->
-        <test-method signature="abrirMenuPerfil()[pri:4, instance:scripts.iniciarSesion@68567e20]" started-at="2019-09-06T12:47:01 CLT" name="abrirMenuPerfil" finished-at="2019-09-06T12:47:06 CLT" duration-ms="5079" status="PASS">
+        <test-method signature="abrirMenuPerfil()[pri:4, instance:scripts.iniciarSesion@11fc564b]" started-at="2019-09-23T14:52:39 CLST" name="abrirMenuPerfil" finished-at="2019-09-23T14:52:39 CLST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================
+at Tools.tools.skipScript(tools.java:191)
+at scripts.iniciarSesion.ejecutarBrowser(iniciarSesion.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abrirMenuPerfil -->
-        <test-method signature="cerrarSesion()[pri:5, instance:scripts.iniciarSesion@68567e20]" started-at="2019-09-06T12:47:06 CLT" name="cerrarSesion" finished-at="2019-09-06T12:47:16 CLT" duration-ms="9187" status="PASS">
+        <test-method signature="cerrarSesion()[pri:5, instance:scripts.iniciarSesion@11fc564b]" started-at="2019-09-23T14:52:39 CLST" name="cerrarSesion" finished-at="2019-09-23T14:52:39 CLST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 
+ =============================================================== 
+ Mensaje de Error: contact the automation. 
+    * Exception: java.lang.NullPointerException
+    * Message: null
+    * Localized Message: null
+    * Cause: null
+    * fillInStackTrace: java.lang.NullPointerException
+    * Clase: java.lang.NullPointerException
+    * Suppressed: [Ljava.lang.Throwable;@3d8bbcdc
+ ===============================================================
+at Tools.tools.skipScript(tools.java:191)
+at scripts.iniciarSesion.ejecutarBrowser(iniciarSesion.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarSesion -->
-        <test-method is-config="true" signature="cerrarBrowser()[pri:0, instance:scripts.iniciarSesion@68567e20]" started-at="2019-09-06T12:47:16 CLT" name="cerrarBrowser" finished-at="2019-09-06T12:47:18 CLT" duration-ms="2773" status="PASS">
+        <test-method is-config="true" signature="cerrarBrowser()[pri:0, instance:scripts.iniciarSesion@11fc564b]" started-at="2019-09-23T14:52:39 CLST" name="cerrarBrowser" finished-at="1969-12-31T21:00:00 CLST" duration-ms="-1569261159203" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarBrowser -->

@@ -215,4 +215,10 @@ public class tools {
         Assert.assertTrue(false, message);
     }
 
+
+	public void finalizarGrabacion() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
