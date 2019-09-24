@@ -99,7 +99,7 @@ public class iniciarSesion {
             Thread.sleep(300);
             objIndex.textPass.click();
             Thread.sleep(300);
-            objIndex.textPass.sendKeys("dragonfly87");
+            objIndex.textPass.sendKeys("123456");
             tools.screenshot("scripts", Caso , "Ingreso de Contraseña Válida");
             Thread.sleep(300);
 
